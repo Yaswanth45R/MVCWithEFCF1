@@ -11,7 +11,7 @@ namespace MVCWithEFCF1.Controllers
     public class CategoryController : Controller
     {
         StoreDbContext dc = new StoreDbContext();
-        public ViewResult DispalyCategories()
+        public ViewResult DisplayCategories()
         {
             return View(dc.Categories);  
         }
